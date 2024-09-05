@@ -25,6 +25,7 @@ const Banner = props => {
         className="button3"
         onClick={clickingClose}
         data-testid="close"
+        aria-label="Submit form"
       >
         <AiOutlineClose className="closeIcon" />
       </button>

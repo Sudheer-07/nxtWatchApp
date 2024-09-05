@@ -153,6 +153,7 @@ class HomeBody extends Component {
                   data-testid="searchButton"
                   className="icon"
                   onClick={this.clickingInput}
+                  aria-label="Submit form"
                 >
                   <BiSearch />
                 </button>
